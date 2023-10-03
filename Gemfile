@@ -73,5 +73,3 @@ group :test do
 end
 gem 'vite_rails'
 gem 'vite_ruby'
-
-gem 'rename', '~> 1.0'
