@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= vite_stylesheet_tag "application", data: { "turbo-track": "reload" } %>
     <%= vite_client_tag %>
@@ -15,14 +14,8 @@
     vite_javascript_tag 'application.jsx' Visit the guide for more information:
     https://vite-ruby.netlify.app/guide/rails -->
   </head>
-
   <body>
     <%= render "components/navbar/navbar" %>
-    <div data-controller="hello">
-      <input data-hello-target="name" type="text">/</input>
-      <input data-hello-target="output" type="text"></input>
-      <button data-action="click->hello#greet">Greet</button>
-    </div>
     <%= yield %>
   </body>
 </html>

@@ -73,3 +73,6 @@ group :test do
 end
 gem 'vite_rails'
 gem 'vite_ruby'
+
+gem "devise", "~> 4.9"
+gem "devise-i18n", "~> 1.11"
