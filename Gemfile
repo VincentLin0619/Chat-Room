@@ -62,6 +62,8 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+  gem 'htmlbeautifier'
+  gem 'solargraph'
 end
 
 group :test do
@@ -71,3 +73,5 @@ group :test do
 end
 gem 'vite_rails'
 gem 'vite_ruby'
+
+gem 'rename', '~> 1.0'
