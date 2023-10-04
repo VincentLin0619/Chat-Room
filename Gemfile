@@ -76,3 +76,5 @@ gem 'vite_ruby'
 
 gem "devise", "~> 4.9"
 gem "devise-i18n", "~> 1.11"
+
+gem "foreman", "~> 0.87.2"

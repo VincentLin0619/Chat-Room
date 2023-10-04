@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [
     RubyPlugin(),
     StimulusHMR(),
-    FullReload(["config/routes.rb", "app/views/**/*"], { delay: 300 }),
+    FullReload(["config/routes.rb", "app/views/**/*.erb"], { delay: 300 }),
   ],
   root: "./app/assets",
   build: {
